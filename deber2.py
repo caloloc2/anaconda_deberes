@@ -12,6 +12,7 @@ rr = np.random.random(n)
 print(rr)
 izqp = rr < prob[0]
 derp = rr < prob[1]
+
 print(izqp)
 # for i_izq, i_der in zip(izqp, derp):
 #     izquierda = i_izq and positions[-1] > 1
